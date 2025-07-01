@@ -1,4 +1,4 @@
-function reverse(x) {
+function reverseInteger(x) {
 	let xCopy = Math.abs(x);
 	let rev = 0;
 	while (xCopy > 0) {
@@ -11,7 +11,7 @@ function reverse(x) {
 	return x < 0 ? -rev : rev;
 }
 
-console.log(`Reverse of 123 is: ${reverse(123)}`);
-console.log(`Reverse of -123 is: ${reverse(-123)}`);
-console.log(`Reverse of 120 is: ${reverse(120)}`);
-console.log(`Reverse of 120 is: ${reverse(1534236469)}`);
+console.log(`Reverse of 123 is: ${reverseInteger(123)}`);
+console.log(`Reverse of -123 is: ${reverseInteger(-123)}`);
+console.log(`Reverse of 120 is: ${reverseInteger(120)}`);
+console.log(`Reverse of 120 is: ${reverseInteger(1534236469)}`);
