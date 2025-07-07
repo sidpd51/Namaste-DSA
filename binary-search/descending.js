@@ -1,6 +1,6 @@
 let arr = [6, 5, 4, 3, 2, 1];
 
-function ascendingBinarySearch(arr, target) {
+function reverseBinarySearch(arr, target) {
 	let start = 0;
 	let end = arr.length - 1;
 	while (start <= end) {
@@ -12,4 +12,4 @@ function ascendingBinarySearch(arr, target) {
 	return -1;
 }
 
-console.log(ascendingBinarySearch(arr, 1));
+console.log(reverseBinarySearch(arr, 1));
