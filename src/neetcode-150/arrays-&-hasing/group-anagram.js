@@ -1,4 +1,5 @@
 let strs = ["act", "pots", "tops", "cat", "stop", "hat"];
+//tc: O(n*klogk) k=unique elements, sc: O(n)
 function groupAnagrams(strs) {
 	let map = {};
 	for (const value of strs) {
@@ -9,6 +10,7 @@ function groupAnagrams(strs) {
 	return Object.values(map);
 }
 
+//tc: O(n*k), sc: O(n*k)
 function groupAnagramsOptimal(strs) {
 	let hash = {};
 	for (const word of strs) {

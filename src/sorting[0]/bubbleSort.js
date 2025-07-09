@@ -1,3 +1,4 @@
+// tc: O(n^2), sc: O(1)
 function bubbleSort(arr) {
 	for (let i = arr.length - 1; i >= 1; i--) {
 		let isSwapped = false;

@@ -1,0 +1,24 @@
+{
+  "name": "namaste-dsa",
+  "version": "1.0.0",
+  "description": "Welcome to **Namaste DSA**!   This repository contains a curated collection of Data Structures and Algorithms (DSA) questions along with their solutions implemented in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidpd51/Namaste-DSA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sidpd51/Namaste-DSA/issues"
+  },
+  "homepage": "https://github.com/sidpd51/Namaste-DSA#readme",
+  "dependencies": {
+    "datastructures-js": "^13.0.0"
+  }
+}
