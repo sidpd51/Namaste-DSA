@@ -71,20 +71,17 @@ export class MyLinkedList {
 	}
 
 	deleteAtIndex(index) {
+		if (index < 0 || index >= this.size) return;
 		let current = this.head;
 		if (index === 0) {
 			this.head = current.next;
-			this.size--;
-			return;
-		} else if (index === 1) {
+		} else {
+			for (let i = 0; i < index - 1; i++) {
+				current = current.next;
+			}
 			current.next = current.next.next;
-			this.size--;
-			return;
 		}
-		for (let i = 0; i < index - 1; i++) {
-			current = current.next;
-		}
-		current.next = current.next.next;
 		this.size--;
+		return;
 	}
 }
