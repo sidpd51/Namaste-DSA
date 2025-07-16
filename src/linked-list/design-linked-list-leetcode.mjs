@@ -71,6 +71,7 @@ export class MyLinkedList {
 	}
 
 	deleteAtIndex(index) {
+		if (index < 0 || index >= this.size) return;
 		let current = this.head;
 		if (index === 0) {
 			this.head = current.next;
