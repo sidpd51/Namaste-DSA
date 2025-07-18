@@ -1,4 +1,4 @@
-import { Node, MyLinkedList } from './design-linked-list-leetcode.mjs';
+import { MyLinkedList } from './design-linked-list-leetcode.js';
 
 const linkedList = new MyLinkedList();
 
@@ -6,10 +6,11 @@ linkedList.addAtIndex(0,8);
 linkedList.addAtTail(3)
 linkedList.addAtTail(4)
 linkedList.addAtTail(5)
-linkedList.printLL();
+console.log(linkedList)
 // let i = 4;
 // console.log(`Index ${i} has element: ${linkedList.get(i)}`);
-linkedList.deleteAtIndex(3);
-linkedList.printLL();
+linkedList.deleteAtIndex(1);
+console.log(linkedList)
+
 
 
